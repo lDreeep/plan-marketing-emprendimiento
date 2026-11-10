@@ -1,6 +1,6 @@
 ---
 name: plan-marketing-emprendimiento
-description: Transforma una idea, emprendimiento o producto existente en un Plan de Marketing profesional, coherente y justificado (investigación, análisis de mercado y situacional, estrategia, marca, producto, precio, distribución, comunicación y control). Usar cuando se pida desarrollar, ordenar, completar, revisar o auditar un emprendimiento o un plan de marketing, ya sea para un trabajo académico, un lanzamiento o un documento interno.
+description: Transforma una idea, emprendimiento, producto o servicio (por ejemplo impresión 3D, diseño, reparaciones, consultoría) en un Plan de Marketing profesional, coherente y justificado, con investigación de mercado, análisis, estrategia, marca, precio, distribución, comunicación y control. Usar cuando se pida desarrollar, ordenar, investigar, completar, revisar o auditar un emprendimiento o plan de marketing, para un trabajo académico, un lanzamiento o un documento interno.
 ---
 
 # Plan de Marketing para emprendimientos
@@ -14,7 +14,10 @@ Convierte información dispersa en decisiones justificadas y las redacta como un
 | `references/cuestionarios.md` | Al hacer preguntas: bloques de emprendimiento, producto, mercado, cliente, marca, precio, distribución, comunicación y control |
 | `references/analisis-y-estrategia.md` | Al construir análisis de mercado, matrices, estrategia, posicionamiento y marca |
 | `references/marketing-operativo.md` | Al definir producto, precio, distribución, comunicación integrada e indicadores |
-| `references/plan-y-auditoria.md` | Al armar la estructura del plan, tratar datos inciertos, investigar y auditar antes de entregar |
+| `references/plan-y-auditoria.md` | Al armar la estructura del plan, tratar datos inciertos y auditar antes de entregar |
+| `references/servicios-e-investigacion.md` | Cuando lo que se ofrece es un servicio (o mezcla producto y servicio), y siempre que se vaya a investigar: cómo adaptar el plan a servicios y cómo correr el modo de investigación |
+
+**Producto o servicio.** Donde estas instrucciones dicen "producto", leer "producto o servicio". Si se ofrece un servicio, leer primero `references/servicios-e-investigacion.md`: cambian la calidad, el precio, la distribución y los indicadores.
 
 ## Principios obligatorios
 
@@ -34,6 +37,7 @@ Convierte información dispersa en decisiones justificadas y las redacta como un
 - **C. Preguntas estratégicas.** Solo las necesarias, sin repetir lo ya respondido. Prioridad: decisiones obligatorias, datos que cambian la estrategia, costos y precios, segmentación, distribución y comunicación.
 - **D. Construcción del plan.** Con información suficiente: organizar la investigación, construir el análisis, tomar decisiones, justificarlas, redactar el documento profesional y eliminar repeticiones.
 - **E. Auditoría final.** Antes de entregar, pasar la lista de control de `references/plan-y-auditoria.md`.
+- **F. Investigación.** Después del diagnóstico y de la primera ronda de preguntas, proponer una lista concreta de qué investigar (competidores, precios, sustitutos, tendencias del sector, materiales o procesos) y, con el OK de la persona, salir a buscar y volver con hallazgos citados y fechados. La investigación cubre información pública; los datos internos (costos, ventas, consultas) los aporta la persona. Procedimiento completo en `references/servicios-e-investigacion.md`.
 
 Si la persona pide revisar un trabajo ya hecho, usar solo el modo B y E: detectar sin reescribir, y devolver una lista priorizada de correcciones (ver el prompt de revisión en `references/plan-y-auditoria.md`).
 
@@ -43,13 +47,14 @@ Nunca hacer decenas de preguntas de una vez. Trabajar en rondas y leer `referenc
 
 1. **Esqueleto.** ¿Qué vende? ¿A quién? ¿Dónde? ¿Qué problema resuelve? ¿Qué lo diferencia? ¿Cuánto cuesta producir? ¿A cuánto vende? ¿Cómo vende? ¿Cómo lo conocen? ¿Qué quiere lograr?
 2. **Profundización.** Solo sobre vacíos detectados. Ej.: "Tengo claro el producto y el cliente. Para cerrar precio necesito costo, precio actual y precio de la competencia."
-3. **Decisiones.** Cuando haya alternativas, presentar 2–3 opciones y decir cuál es más coherente y por qué. Ej.: "Veo tres estrategias posibles: penetración, neutra o descreme. Por los datos disponibles, la neutra es la más coherente porque..."
-4. **Validación.** Antes de redactar, mostrar un cuadro Área / Decisión con: mercado meta, ventaja, valor, crecimiento, integración, posicionamiento, producto, precio, distribución y comunicación. Pedir solo las correcciones necesarias.
+3. **Investigación (modo F).** Con los vacíos ya acotados, proponer qué se va a investigar, esperar el OK, buscar y presentar los hallazgos antes de decidir.
+4. **Decisiones.** Cuando haya alternativas, presentar 2–3 opciones y decir cuál es más coherente y por qué. Ej.: "Veo tres estrategias posibles: penetración, neutra o descreme. Por los datos disponibles, la neutra es la más coherente porque..."
+5. **Validación.** Antes de redactar, mostrar un cuadro Área / Decisión con: mercado meta, ventaja, valor, crecimiento, integración, posicionamiento, producto, precio, distribución y comunicación. Pedir solo las correcciones necesarias.
 
 ## Cómo trabajar con datos y fuentes
 
 - Clasificar cada dato como Confirmado, Inferido, Hipótesis, Decisión o Pendiente. Nunca presentar una hipótesis como hecho.
-- Si se pide investigación externa, buscar fuentes actuales y citar solo las realmente usadas. Para precios, indicar la fecha de consulta.
+- Para la investigación externa, buscar fuentes actuales y citar solo las realmente usadas. Para precios, indicar la fecha de consulta.
 - La IA ordena, compara, busca, revisa coherencia y mejora redacción. No inventa datos, no finge investigación, no fabrica entrevistas ni estadísticas, no reemplaza validaciones técnicas.
 
 Detalle en `references/plan-y-auditoria.md`.

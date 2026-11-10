@@ -1,6 +1,6 @@
 # Plan de Marketing para emprendimientos (skill para Claude)
 
-Skill de uso libre que convierte una idea, un emprendimiento o un producto existente en un **Plan de Marketing profesional, coherente y justificado**. Pensada para trabajos académicos, proyectos emprendedores, lanzamientos de producto y documentos internos de empresa.
+Skill de uso libre que convierte una idea, un emprendimiento, un producto o un **servicio** (impresión 3D, diseño, reparaciones, consultoría, etc.) en un **Plan de Marketing profesional, coherente y justificado**. Pensada para trabajos académicos, proyectos emprendedores, lanzamientos y documentos internos de empresa.
 
 No rellena teoría. Ordena la información real que tenés, detecta lo que falta, te hace preguntas por rondas, te ayuda a tomar decisiones, las justifica y arma un documento final redactado en tercera persona, con lenguaje profesional.
 
@@ -8,6 +8,8 @@ No rellena teoría. Ordena la información real que tenés, detecta lo que falta
 
 - Recibe una descarga inicial desordenada y la clasifica en confirmado, decidido, hipótesis, falta validar y falta decidir.
 - Hace preguntas por rondas, sin repetir lo que ya contaste.
+- Investiga información pública (competencia, precios, sustitutos, tendencias del sector) con tu OK previo, y cita cada fuente con su fecha de consulta.
+- Se adapta a servicios: calidad con especificaciones del resultado y del proceso, precio por hora, pieza o proyecto, capacidad, plazos, y las 3P extra (personas, procesos, evidencia física).
 - No inventa datos: sin cifras confiables, trabaja de forma cualitativa y lo aclara.
 - Cubre investigación, análisis de mercado, segmentación, mercado meta, análisis situacional (FODA, Ansoff, FCB, Porter, BCG, ciclo de vida), estrategia, posicionamiento, identidad de marca, producto, precio, distribución, comunicación y control.
 - Cierra con una auditoría de coherencia antes de entregar.
@@ -21,7 +23,8 @@ plan-marketing-emprendimiento/
     ├── cuestionarios.md             # bancos de preguntas por bloque
     ├── analisis-y-estrategia.md     # mercado, matrices, estrategia, posicionamiento, marca
     ├── marketing-operativo.md       # producto, precio, distribución, comunicación, control
-    └── plan-y-auditoria.md          # estructura del plan, checklist y prompts de activación
+    ├── plan-y-auditoria.md          # estructura del plan, checklist y prompts de activación
+    └── servicios-e-investigacion.md # adaptación a servicios y modo de investigación
 ```
 
 `SKILL.md` es corto y se carga siempre. Los archivos de `references/` se leen solo cuando hacen falta.
